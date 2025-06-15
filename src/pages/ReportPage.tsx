@@ -1,9 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import type { IReport } from '../types/Report'
 import { FirestoreService } from '../services/FirestoreServices'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { GoogleMap, Marker } from '@react-google-maps/api'
-import { auth } from '../configs/firebaseInit'
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 function ReportPage() {

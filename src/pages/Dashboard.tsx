@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FirestoreService } from '../services/FirestoreServices'
 import type { IReport } from '../types/Report'
 import Report from '../components/Report'
